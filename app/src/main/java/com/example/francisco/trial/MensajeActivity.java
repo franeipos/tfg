@@ -108,13 +108,12 @@ public class MensajeActivity extends AppCompatActivity  implements GoogleApiClie
             if ((amp > 80)) {
 
                 Log.i("Noise", "SUPERADO EL UMBRAL");
+                showDialog();
 
             }
 
             // Runnable(mPollTask) will again execute after POLL_INTERVAL
             mHandler.postDelayed(mPollTask, POLL_INTERVAL);
-
-
         }
     };
 
@@ -207,7 +206,7 @@ public class MensajeActivity extends AppCompatActivity  implements GoogleApiClie
     }
 
 
-    public void showDialog(View view) {
+    public void showDialog() {
         //FragmentManager fragmentManager = getSupportFragmentManager();
 
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
