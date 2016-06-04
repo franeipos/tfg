@@ -45,12 +45,12 @@
             android:layout_centerHorizontal="true" />
     </RelativeLayout>
 
-    <Button
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:text="Dialog"
-        android:onClick="showDialog"
-        android:id="@+id/button" />
+    <!--<Button-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:text="Dialog"-->
+        <!--android:onClick="showDialog"-->
+        <!--android:id="@+id/button" />-->
 
     <!--<Button-->
         <!--android:layout_height="wrap_content"-->
@@ -58,8 +58,8 @@
         <!--android:text="Activities"-->
         <!--android:onClick="requestActivityUpdates"-->
          <!--/>-->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/detected_activities_textview"/>
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/detected_activities_textview"/>-->
 </LinearLayout>
