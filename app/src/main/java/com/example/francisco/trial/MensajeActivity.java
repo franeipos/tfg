@@ -264,13 +264,6 @@ public class MensajeActivity extends AppCompatActivity  implements GoogleApiClie
         LinearLayout layout = (LinearLayout) findViewById(R.id.layoutMesaje);
 
         mSensor = new SoundMeter();
-
-        mPlayButton = new PlayButton(this);
-        layout.addView(mPlayButton,
-                new LinearLayout.LayoutParams(
-                        ViewGroup.LayoutParams.WRAP_CONTENT,
-                        ViewGroup.LayoutParams.WRAP_CONTENT,
-                        0));
         recording = true;
         microfono = (ImageView) findViewById(R.id.micro);
         microfono.setOnTouchListener(new View.OnTouchListener() {
