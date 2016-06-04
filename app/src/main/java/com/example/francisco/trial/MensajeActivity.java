@@ -113,6 +113,8 @@ public class MensajeActivity extends AppCompatActivity  implements GoogleApiClie
 
             // Runnable(mPollTask) will again execute after POLL_INTERVAL
             mHandler.postDelayed(mPollTask, POLL_INTERVAL);
+
+
         }
     };
 
